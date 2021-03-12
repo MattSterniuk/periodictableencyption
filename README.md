@@ -2,8 +2,6 @@
 
 # A DESCRIPTION OF THE PROJECT: this is a pretty basic code that encrypts a password based off of your first name, gender and current age. I used an edited periodic table as the key to encrypt this. Not going to give away too much but I took 26 elements from the periodic tables along with their corresponding numbers. I chose the 26 elements based on what letter they started with, hence there being 26 of them. I then take their name, age, and gender and use that to make the unique ID. I use the two letters of your name, use the corresponding number in the edited periodic table I made. I then add your current age to the ID. Finally, based on your gender(He for male which is the symbol for Helium, Helium's periodic table number is 2) and(La for female, this is the symbol for Lanthanum, Lanthanum's periodic table number is 57. I chose La due to it being the beginning of Lady). Alright let's move onto the code. 
 
-# this is a program that will take your name, age and gender and turn it into an encrypted number using a key I will not reveal here
-
 #all inputs from the user, they will be stored in user_info list
 
 user_name = str(input("Enter your name to encrypt it(all lowercase): "))
